@@ -7,6 +7,7 @@
 </svelte:head>
 
 <section>
+  <a href="/">Home</a>
   <h1>Characters</h1>
 
   <!-- <pre>{JSON.stringify(characters, null, 2)}</pre> -->
@@ -17,5 +18,4 @@
     {/each}
   </ul>
 
-  <a href="/">Home</a>
 </section>
